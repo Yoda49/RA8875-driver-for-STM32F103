@@ -370,8 +370,6 @@ void ra8875_soft_reset (void);
 void ra8875_display_on (char on);
 void ra8875_sleep      (char sleep);
 
-void ra8875_spi1_switch_to_max_speed (void);
-
 /* Graphics functions */
 void ra8875_draw_image        (unsigned int x1, unsigned int y1, unsigned int x2, unsigned int y2, unsigned char * array, unsigned long count);
 void ra8875_set_xy_position   (unsigned int x, unsigned int y);
